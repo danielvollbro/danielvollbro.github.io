@@ -35,8 +35,8 @@ url: "https://digidaniel.tech"
 github:
   username: digidaniel-tech # change to your github username
 
-# twitter:
-  # username: twitter_username # change to your twitter username
+twitter:
+  username: digidaniel_tech # change to your twitter username
 
 social:
   # Change to your full name.
@@ -45,8 +45,8 @@ social:
   email: wollbro90@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/digidaniel-tech # change to your github homepage
+    - https://x.com/digidaniel_tech # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/danielwollbro
@@ -93,7 +93,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # dark
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
