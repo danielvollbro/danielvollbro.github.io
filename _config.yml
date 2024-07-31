@@ -19,7 +19,7 @@ title: DigiDaniel.tech # the main title
 tagline: System Engineer | Tech & Homelab geek | Tech Content Creator # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Welcome to Digidaniel.tech! Your ultimate resource for insights and tutorials on software development, server administration, DevOps, cloud computing, and homelab setups. Whether you're a seasoned professional or a tech enthusiast, my blog offers in-depth articles, practical guides, and expert tips to enhance your skills and knowledge in the tech industry. Join me on a journey to explore the latest trends, best practices, and innovative solutions in the world of technology. Stay ahead with Digidaniel.tech – your go-to source for all things tech.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
