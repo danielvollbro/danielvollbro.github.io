@@ -14,12 +14,19 @@ timezone: Europe/Stockholm
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: DigiDaniel.tech # the main title
+title: DigiDaniel # the main title
 
-tagline: System Engineer | Tech & Homelab geek | Tech Content Creator # it will display as the sub-title
+tagline: Software Engineer | DevOps Engineer | Tech & Homelab geek # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Welcome to Digidaniel.tech! Your ultimate resource for insights and tutorials on software development, server administration, DevOps, cloud computing, and homelab setups. Whether you're a seasoned professional or a tech enthusiast, my blog offers in-depth articles, practical guides, and expert tips to enhance your skills and knowledge in the tech industry. Join me on a journey to explore the latest trends, best practices, and innovative solutions in the world of technology. Stay ahead with Digidaniel.tech – your go-to source for all things tech.
+  Welcome to Digidaniel.tech! Your ultimate resource for insights and tutorials
+  on software development, server administration, DevOps, cloud computing, and
+  homelab setups. Whether you're a seasoned professional or a tech enthusiast,
+  my blog offers in-depth articles, practical guides, and expert tips to enhance
+  your skills and knowledge in the tech industry. Join me on a journey to
+  explore the latest trends, best practices, and innovative solutions in the
+  world of technology. Stay ahead with Digidaniel.tech – your go-to source for
+  all things tech.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -39,10 +46,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/digidaniel-tech # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/danielwollbro
 
 # Site Verification Settings
 webmaster_verifications:
