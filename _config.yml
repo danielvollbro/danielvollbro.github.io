@@ -19,7 +19,7 @@ title: Digi Daniel - Tech blog # the main title
 tagline: Software Engineer | DevOps Engineer | Tech & Homelab geek # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Welcome to digidaniel.tech! Here I share my learnings and guides on topics like Cloud Engineering, DevOps, Development, Homelab and much more tech related.
+  Welcome to digidaniel! Here I share my learnings and guides on topics like Cloud Engineering, DevOps, Development, Homelab and much more tech related.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
