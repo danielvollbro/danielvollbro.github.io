@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![Desktop View](/assets/img/pages/about/pexels-kevin-ku-92347-577585.jpg)
+![Desktop View](/assets/img/pages/about/pexels-kevin-ku-92347-577585.webp)
 
 # Hello,
 My name is Daniel, a tech enthusiast from Sweden, with a rich background in software development, DevOps, cloud computing, and homelab projects. My professional and personal experiences have fueled my passion for technology, allowing me to stay ahead in this ever-evolving field. Today, I want to share my journey and knowledge across these domains, which have shaped my career and hobbies.
