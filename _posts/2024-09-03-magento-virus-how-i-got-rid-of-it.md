@@ -5,7 +5,7 @@ date: 2024-09-03 22:25 +0200
 image:
   path: /assets/img/posts/2024-09-03-magento-virus-how-i-got-rid-of-it/img001.webp
   alt: A computer in the dark lighting red from the monitor
-categories: [security, malware]
+categories: [Security, Malware]
 tags: [magento, security, malware]
 ---
 One day I received a call from a friend who informed me their system had been infected by a virus and they were asking for help getting rid of it, I immediately said that I would help thinking it would be an easy fix, However, I quickly realized I was wrong.
