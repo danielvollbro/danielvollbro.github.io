@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Why You Don’t Need a Homelab But Definitely Should Have One
+title: You should get a Homelab, right now!
 date: 2024-07-31 14:15 +0200
 image:
-  path: /assets/img/posts/2024-07-31-why-you-dont-need-a-homelab/img002.webp
+  path: /assets/img/posts/2024-07-31-you-should-get-a-homelab-right-now/img001.webp
   alt: Network switch with multiple ethernet cables connected to it
 categories: [Homelab, Beginner]
 tags: [homelab, server]
@@ -14,8 +14,6 @@ tags: [homelab, server]
 In the world of tech enthusiasts, the concept of a "homelab" is often romanticized. It’s a personal playground for experimentation, learning, and sometimes a bit of chaos. You might hear about homelabs brimming with servers, networking gear, and an array of devices that make any techie's heart race. But do you really need one? The answer is no, you don't need a homelab. But here's why you definitely should consider having one.
 
 ### You Don’t Need a Homelab…
-
-![Desktop View](/assets/img/posts/2024-07-31-why-you-dont-need-a-homelab/img003.webp){: w="400" .right }
 
 Let’s be honest: in the age of cloud computing, virtual machines, and remote services, the necessity of having a physical homelab has diminished. Here’s why:
 
@@ -42,8 +40,6 @@ Despite not needing a homelab, there are compelling reasons why you should still
 5. **Fun and Satisfaction**: For many, building and tinkering with a homelab is simply fun. It’s a hobby that brings satisfaction from solving problems, optimizing performance, and seeing your setup grow and evolve over time.
 
 ### Getting Started
-
-![Desktop View](/assets/img/posts/2024-07-31-why-you-dont-need-a-homelab/img001.webp){: w="400" .right }
 
 If you’re convinced that a homelab is a worthwhile investment, here are a few tips to get you started:
 
