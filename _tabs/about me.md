@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 
 ![Desktop View](/assets/img/pages/about/pexels-kevin-ku-92347-577585.webp)
