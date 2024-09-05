@@ -32,9 +32,19 @@ Once the files were removed I ran the service again to make sure the files was r
 
 ## Was there any cron jobs?
 
-So the log file I found had exposed that it tried to create a cron job so I of course had to make sure it actually didn’t manage to do this and the log was lying so I went through all cron jobs for each user and could not find any mysterious job so it was actually never able to create that job.
+So the log file I found had exposed that it tried to create a cron job so I of course had to make sure it actually didn’t manage to do this and the log was lying so I went through all cron jobs for each user, wanted to be sure nothing was hidden so I checked in multiple ways:
 
-Even if a log says something or even worse, says nothing you should always expect the worst because the log might be lying to throw you off, so it's better to be safe than sorry.
+```bash
+$ crontab -l
+$ sudo crontab -l
+$ sudo -u www-data crontab -l
+$ sudo cat /etc/crontab
+$ sudo ls /etc/cron.*
+```
+
+No mather how I checked I could not find any cronjob that looked weird, so made the conclusion that it was actually never able to create any cronjobs.
+
+Even if a log says something or even worse, says nothing you should always expect the worst because the log might be lying to throw you off, so it's better to be safe than sorry. 
 
 ## So was that it?
 
