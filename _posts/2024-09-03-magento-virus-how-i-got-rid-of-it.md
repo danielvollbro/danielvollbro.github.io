@@ -20,7 +20,13 @@ When a system is affected by a virus, it is crucial to isolate it from the outsi
 
 Now that I had isolated the virus it was time to find the bugger, I started with looking into all the logs I could figure out or find to see if there would be any indications of where it could be and also to ensure that no data had left the server and I could not see any indications of this, either it was sophisticated enough to remove all log entries it generated or it was never able to set up any connection outside of the server, hopefully the latter but you can never be sure and should always take responsibility and inform your users of an potential data leak.
 
-After thoroughly reviewing the logs, I concluded that they would not reveal to me the path to the virus so I moved on and ran a service called ClamAV (clamscan) to see if it could find any suspicious files to see if it could find any mysterious files and success it could find 2 files, defunct and defunct.dat which I removed, in the same folder I could find a log file telling me it had tried to setup a cronjob but had failed doing so, I removed this file also, unfortunately before I documented the content of the file so even if I want to show what the content I can't.
+After thoroughly reviewing the logs, I concluded that they would not reveal to me the path to the virus so I moved on and ran a service called ClamAV (clamscan) to see if it could find any suspicious files.
+ 
+```bash
+sudo clamscan -r / --infected --remove
+```
+
+and success it could find 2 files, defunct and defunct.dat which I removed, in the same folder I could find a log file telling me it had tried to setup a cronjob but had failed doing so, I removed this file also, unfortunately before I documented the content of the file so even if I want to show what the content I can't.
 
 Once the files were removed I ran the service again to make sure the files was really removed and not other infected files could be found.
 
