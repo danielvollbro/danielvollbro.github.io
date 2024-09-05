@@ -15,7 +15,7 @@
       </h1>
       {% else %}
       <div class="site-title">
-        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a href="{{ '/' | relative_url }}">{{ site.title | replace: '-', '<br />'}}</a>
       </div>
       {% endif %}
       <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
