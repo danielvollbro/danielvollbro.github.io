@@ -135,7 +135,27 @@ Even though I made these mistakes that made the process longer I am happy I made
 
 ## Time to open up the site to the world and go to bed!
 
-Not really, the virus was now confirmed gone but somehow it had been allowed access into the system, so we had a hole somewhere, so what I wanted to do was to upgrade the site, the composer packages and also the Linux packages to the latest version to help mitigate that it would happen again, so I spent another hour or two making sure everything was up to date.
+Not really, the virus was now confirmed gone but somehow it had been allowed access into the system, so we had a hole somewhere, so what I wanted to do was to upgrade the site:
+
+```bash
+$ composer remove magento/product-community-edition --no-update
+$ composer require-commerce magento/product-community-edition 2.4.7-p2 --no-update
+$ composer update magento/product-community-edition
+```
+
+... the composer packages:
+
+```bash
+$ composer update
+```
+
+... and also the Linux packages:
+
+```bash
+$ sudo apt update && sudo apt upgrade -y
+```
+
+I did this to make sure the system are running on the latest version to help mitigate that it would happen again, so I spent another hour or two making sure everything was up to date.
 Usually I would have done this in a development environment first but because the site is being used every day I wanted to speed up the process and do it immediately in production and this was okay by the owner (my friend), but as a general rule, always do the upgrade first in a test or dev environment to make sure nothing crashes before upgrading your production environment.
 
 ## Finally time to go live
