@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Don’t know Docker? Let’s fix that!
+description: Docker is awesome, and in this beginner's guide, part 1, we will get you started.
 date: 2024-09-01 21:59 +0200
 image:
   path: /assets/img/posts/2024-09-01-don-t-know-docker-let-s-fix-that/img001.webp

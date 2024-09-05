@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Magento has virus, how I got rid of it
+description: Magento 2.4.6 had a security vulnerability that allowed a virus to slip through. Here's how I found and removed it.
 date: 2024-09-03 22:25 +0200
 image:
   path: /assets/img/posts/2024-09-03-magento-virus-how-i-got-rid-of-it/img001.webp

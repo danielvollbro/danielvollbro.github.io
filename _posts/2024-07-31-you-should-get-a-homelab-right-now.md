@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You should get a Homelab, right now!
+description: Are you working in IT? Then you should set up an Homelab right now! Here is why.
 date: 2024-07-31 14:15 +0200
 image:
   path: /assets/img/posts/2024-07-31-you-should-get-a-homelab-right-now/img001.webp
@@ -8,6 +9,7 @@ image:
   lqip: /assets/img/posts/2024-07-31-you-should-get-a-homelab-right-now/img001_lqip.webp
 categories: [Homelab, Beginner]
 tags: [homelab, server]
+
 ---
 
 ## Why You Don’t Need a Homelab But Definitely Should Have One
