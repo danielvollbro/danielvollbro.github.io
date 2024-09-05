@@ -5,6 +5,7 @@ date: 2024-09-03 22:25 +0200
 image:
   path: /assets/img/posts/2024-09-03-magento-virus-how-i-got-rid-of-it/img001.webp
   alt: A computer in the dark lighting red from the monitor
+  lqip: /assets/img/posts/2024-09-03-magento-virus-how-i-got-rid-of-it/img001_lqip.webp
 categories: [Security, Malware]
 tags: [magento, security, malware]
 ---

@@ -5,6 +5,7 @@ date: 2024-07-31 14:15 +0200
 image:
   path: /assets/img/posts/2024-07-31-you-should-get-a-homelab-right-now/img001.webp
   alt: Network switch with multiple ethernet cables connected to it
+  lqip: /assets/img/posts/2024-07-31-you-should-get-a-homelab-right-now/img001_lqip.webp
 categories: [Homelab, Beginner]
 tags: [homelab, server]
 ---

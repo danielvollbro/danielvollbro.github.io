@@ -5,6 +5,7 @@ date: 2024-09-01 21:59 +0200
 image:
   path: /assets/img/posts/2024-09-01-don-t-know-docker-let-s-fix-that/img001.webp
   alt: Shipping containers symbolizing Docker Containers
+  lqip: /assets/img/posts/2024-09-01-don-t-know-docker-let-s-fix-that/img001_lqip.webp
 categories: [Docker, Docker for beginners]
 tags: [docker, containerization]
 ---
