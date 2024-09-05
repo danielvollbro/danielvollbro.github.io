@@ -138,12 +138,20 @@ Even though I made these mistakes that made the process longer I am happy I made
 Not really, the virus was now confirmed gone but somehow it had been allowed access into the system, so we had a hole somewhere, so what I wanted to do was to upgrade the site:
 
 ```bash
+# Upgrade Magento composer packages
 $ composer remove magento/product-community-edition --no-update
 $ composer require-commerce magento/product-community-edition 2.4.7-p2 --no-update
 $ composer update magento/product-community-edition
+
+# Upgrade Magento installation 
+$ php bin/nagento setup:upgrade
+$ php bin/magento setup:di:compile
+$ php bin/magento setup:static-content:deploy -f
+$ php bin/magento c:c
+$ php bin/magento c:f
 ```
 
-... the composer packages:
+... the rest the composer packages:
 
 ```bash
 $ composer update
