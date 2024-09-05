@@ -11,11 +11,11 @@
   
       {% if paths.size == 0 or page.layout == 'home' %}
       <h1 class="site-title">
-        <a href="{{ '/' | relative_url }}">{{ site.title | split: '-' | first }}</a>
+        <a href="{{ '/' | relative_url }}">{{ site.title | replace: '-', '<br />'}}</a>
       </h1>
       {% else %}
       <div class="site-title">
-        <a href="{{ '/' | relative_url }}">{{ site.title | split: '-' | first }}</a>
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
       </div>
       {% endif %}
       <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
