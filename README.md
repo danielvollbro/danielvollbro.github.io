@@ -1,61 +1,38 @@
-# Chirpy Starter
+# Digidaniel.tech - Personal tech blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+This is my personal blog, here I document things that I learn or already know
+to share my knowledge with others and also to have a place where I can go back
+when there is something that I have forgotten and need to refresh.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+I am no professional writer so don't expect the content to be in highest quality,
+I try to make the feel more friendly and less professional and stale, so if you
+are expecting any professional guides or posts then you are in the wrong place.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## Why keep this public on Github?
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+I don't see any reason not, hopefully this encurage more people to set up their
+own blog and document their own journey with others. Doing this is a great way
+to learn about documentation and show off your personal projects for others to
+follow along.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+## Guides
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+### Convert jpg to webp
 
-## Prerequisites
+Most of my images comes from stock image pages like https://www.pexels.com/ or
+https://unsplash.com/ these images is often in jpg and to optimize the site I
+convert the images to webp using Imagemagick, this is done by running the
+following command:
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+````shell
+convert <jpg_img_path> <webp_img_path>
+````
 
-## Installation
+### How to generate LQIP
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+This blog is using LQIP to lazy load images, I generate the LQIP images by 
+running the following command:
 
-Then clone it to your local machine and run:
-
-```console
-$ bundle
-```
-
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
-
-## Contributing
-
-The contents of this repository are automatically updated when new releases are made to the [main repository][chirpy].  
-If you have problems using it, or would like to participate in improving it, please go to the main repository for feedback!
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+````shell
+convert <source_img_path> -resize 2x2 -quality 20 <target_img_path>
+````
