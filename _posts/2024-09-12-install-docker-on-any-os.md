@@ -10,7 +10,7 @@ image:
 categories: [Docker, Docker for beginners]
 tags: [docker, containerization]
 ---
-This is part 2 in my Docker series, if you haven't read part 1 already you can find it [here](https://blog.digidaniel.tech/posts/don-t-know-docker-let-s-fix-that/)
+This is part 2 in my Docker series, if you haven't read part 1 already you can find it [here](https://www.digidaniel.dev/posts/don-t-know-docker-let-s-fix-that/)
 
 Before we can start using Docker we need to install it on your system, this is done different depending on what OS you run. Down here I will guide you through each OS so you can follow along and install Docker and start using you too.
 
