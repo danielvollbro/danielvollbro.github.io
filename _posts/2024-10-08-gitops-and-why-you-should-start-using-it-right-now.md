@@ -4,9 +4,9 @@ title: GitOps - and why you should start using it right now
 description: What is GitOps? Why should you use it? Here I will tell you why GitOps is extremely valuable for your project and your company.
 date: 2024-10-08 17:12 +0200
 image:
-  path: /assets/img/posts/2024-09-23-enable-msi-on-existing-magento-store/chuttersnap-Q4bmoSPJM18-unsplash.webp
+  path: /assets/img/posts/2024-10-08-gitops-and-why-you-should-start-using-it-right-now/igor-omilaev-gVQLAbGVB6Q-unsplash.webp
   alt: Topview of a shore with many containers
-  lqip: /assets/img/posts/2024-09-23-enable-msi-on-existing-magento-store/chuttersnap-Q4bmoSPJM18-unsplash_lqip.webp
+  lqip: /assets/img/posts/2024-10-08-gitops-and-why-you-should-start-using-it-right-now/igor-omilaev-gVQLAbGVB6Q-unsplash_lqip.webp
 categories: [DevOps, Intro]
 tags: [devops, gitops]
 ---
