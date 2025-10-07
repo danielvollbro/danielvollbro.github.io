@@ -117,7 +117,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: digidaniel-tech/digidaniel-tech.github.io
+    repo: danielvollbro/danielvollbro.github.io
     repo_id: R_kgDOMdDeaA
     category: General
     category_id: DIC_kwDOMdDeaM4ChTa3
