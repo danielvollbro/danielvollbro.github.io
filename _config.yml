@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://www.digidaniel.dev"
 
 github:
-  username: digidaniel-tech # change to your github username
+  username: wollbro # change to your github username
 
 twitter:
   username: digidaniel_tech # change to your twitter username
@@ -34,15 +34,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Daniel Wollbro
+  name: Daniel Vollbro
   email: wollbro90@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/digidaniel-tech # change to your github homepage
+    - https://github.com/wollbro # change to your github homepage
     - https://x.com/digidaniel_tech # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/danielwollbro
+    - https://www.linkedin.com/in/danielvollbro
 
 # Site Verification Settings
 webmaster_verifications:
