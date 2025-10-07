@@ -1,4 +1,4 @@
-# Digidaniel.tech - Personal tech blog
+# Daniel Vollbro - Personal tech blog
 
 This is my personal blog, here I document things that I learn or already know
 to share my knowledge with others and also to have a place where I can go back
